@@ -1,0 +1,4 @@
+@Library('c3i@staging') _
+
+String configurationFile = '.c3i/config_v1.yml'
+c3iManager.runBuild(this, configurationFile)
