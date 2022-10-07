@@ -3,7 +3,7 @@
 id: 'conan-io/conan-center-index-staging'
 
 conan:
-  version: 1.47.0
+  version: 1.52.0
   random_field: "this is just to test something"
 
 artifactory:

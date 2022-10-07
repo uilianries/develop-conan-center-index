@@ -1,4 +1,4 @@
-@Library('c3i@staging') _
+@Library('c3i@danimtb/fix_wait_for_job') _
 
 String configurationFile = '.c3i/config_v1.yml'
 cci.runBuild(this, configurationFile)
