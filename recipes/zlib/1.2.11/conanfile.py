@@ -4,9 +4,6 @@ from conans.errors import ConanException
 
 
 class ZlibConan(ConanFile):
-    # Add a comment here
-    # other comment
-    # more comment
     name = "zlib"
     version = "1.2.11"
     url = "https://github.com/conan-io/conan-center-index"
