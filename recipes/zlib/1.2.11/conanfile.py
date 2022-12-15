@@ -17,6 +17,7 @@ class ZlibConan(ConanFile):
     exports_sources = ["CMakeLists.txt", "CMakeLists_minizip.txt", "patches/**"]
     generators = "cmake"
     topics = ("conan", "zlib", "compression")
+    # trigger
 
     @property
     def _source_subfolder(self):
